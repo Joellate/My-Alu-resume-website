@@ -1,0 +1,61 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Navbar */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #7e1519;
+}
+
+nav ul li {
+    padding: 15px;
+}
+
+nav ul li a {
+    color: rgb(5, 1, 1);
+    text-decoration: none;
+}
+
+/* Sections */
+section {
+    padding: 50px;
+}
+
+/* Contact Form */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input, textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #270e95;
+    color: rgb(19, 174, 86);
+    border: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    input, textarea {
+        width: 100%;
+    }
+}
